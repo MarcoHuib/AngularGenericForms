@@ -40,4 +40,4 @@ Thumbs.db
 
 # Angular
 node_modules
-projects
+dist

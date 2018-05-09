@@ -20,8 +20,8 @@
       "AngularGenericForms2": [
         "dist/AngularGenericForms2"
       ],
-      "AngularGenericFormsLibrary": [
-        "dist/AngularGenericFormsLibrary"
+      "AGFLibrary": [
+        "dist/AGFLibrary"
       ]
     }
   }

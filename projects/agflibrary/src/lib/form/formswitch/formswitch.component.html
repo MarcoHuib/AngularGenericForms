@@ -1,0 +1,6 @@
+<ng-container [ngSwitch]="control.controlType">
+  <app-textbox *ngSwitchCase="0" [formGroup]="formGroup" [control]="control"></app-textbox>
+  <app-select *ngSwitchCase="1" [formGroup]="formGroup" [control]="control"></app-select>
+  <app-radio *ngSwitchCase="2" [formGroup]="formGroup" [control]="control"></app-radio>
+  <app-textbox *ngSwitchCase="4" [formGroup]="formGroup" [control]="control"></app-textbox>
+</ng-container>

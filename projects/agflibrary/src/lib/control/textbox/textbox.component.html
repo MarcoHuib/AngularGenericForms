@@ -1,0 +1,11 @@
+<div *ngIf="formGroup" [formGroup]="formGroup">
+    <input  [ngClass]="control?.htmlClass" 
+            [formControlName]="control?.controlName"
+            [formControl]="getControl"
+            [attr.type]="control?.type" 
+            [attr.minlength]='control?.minlength'
+            [attr.maxlength]="control?.maxLength"
+            [attr.placeholder]="control?.placeholder|translate"
+            [appInputPattern]="control?.pattern"
+            >
+</div>

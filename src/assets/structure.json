@@ -1,0 +1,48 @@
+{
+  "formGroup": [{
+      "name": "0-Personia",
+      "type": 1,
+      "control": [{
+          "name": "01-Naam",
+          "type": 2,
+          "value": "Marco"
+        },
+        {
+          "name": "02-Achternaam",
+          "type": 2,
+          "value": "Huiberts"
+        },
+        {
+          "name": "03-Leeftijd",
+          "type": 2,
+          "value": 29
+        }
+      ]
+
+    },
+    {
+      "name": "1-Address",
+      "type": 1,
+      "control": [{
+          "name": "11-Huisnummer",
+          "type": 2,
+          "value": "43"
+        },
+        {
+          "name": "12-Postcode",
+          "type": 2,
+          "value": "1824DT"
+        },
+        {
+          "name": "13-HuisnummerExtensie",
+          "type": 1,
+          "control": [{
+            "name": "131-Extensie",
+            "type": 2,
+            "value": 29
+          }]
+        }
+      ]
+    }
+  ]
+}

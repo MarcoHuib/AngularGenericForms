@@ -1,0 +1,16 @@
+<ng-container *ngIf="formGroup" [formGroup]="formGroup">
+  <div class="custom-control custom-radio" *ngFor="let item of control.values; let i=index;">
+      <input 
+      type="radio"
+      class="custom-control-input"
+      [attr.name]="control?.controlName" 
+      [attr.id]="control?.controlName + i + randomNumber" 
+      [attr.tabindex]="control.tabIndex"        
+      [formControl]="getControl" 
+      [formControlName]="control?.controlName" 
+      [value]="item.value">
+      <label 
+      class="custom-control-label" 
+      [attr.for]="control?.controlName + i + randomNumber">{{valueObject.text}}</label>
+  </div>
+</ng-container>

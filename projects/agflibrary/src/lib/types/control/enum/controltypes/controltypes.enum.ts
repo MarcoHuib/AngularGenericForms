@@ -1,7 +1,9 @@
 export enum ControlTypes {
-    textbox = 0,
-    select = 1,
-    radio = 2,
-    checkbox = 3,
-    numeric = 4
+    formgroup = 0,
+    formarray = 1,
+    textbox = 2,
+    select = 3,
+    radio = 4,
+    checkbox = 5,
+    numeric = 6
 }

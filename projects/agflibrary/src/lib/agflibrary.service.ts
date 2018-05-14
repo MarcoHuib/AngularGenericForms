@@ -6,7 +6,5 @@ import { BehaviorSubject } from 'rxjs';
   providedIn: 'root'
 })
 export class AGFLibraryService {
-  public readonly formGroup = new BehaviorSubject<FormGroup>(null);
-
   constructor() { }
 }

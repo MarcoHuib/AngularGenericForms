@@ -10,10 +10,10 @@ import { ControlTypes } from '../../enum';
  */
 export interface IControl {
     controlName: string;
-    value: string;
-    validators: ValidatorFn[];
-    asyncValidators: AsyncValidatorFn[];
-    updateOn: FormHooks;
+    value?: string;
+    validators?: ValidatorFn[];
+    asyncValidators?: AsyncValidatorFn[];
+    updateOn?: FormHooks;
     controlType: ControlTypes;
-    disabled: boolean;
+    disabled?: boolean;
   }

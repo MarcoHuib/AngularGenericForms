@@ -1,0 +1,11 @@
+<ng-container *ngIf="formGroup" [formGroup]="formGroup">
+    <select class=""
+            [ngClass]="control?.htmlClass ? 'custom-select' : control?.htmlClass" 
+            [formControlName]="control?.controlName"
+            [formControl]="getControl"
+            >
+        <option selected="selected" [value]="">{{control?.defaultText}}</option>
+        <option *ngFor="let valueObject of control.values; let i=index;" 
+        [value]="valueObject.value">{{valueObject.text}}</option>
+    </select>
+</ng-container>
